@@ -2,6 +2,12 @@
 ej.: "Usted se llama José y tiene 66 años" 	*/
 function mostrar()
 {	
-	
+	var nombre =prompt("su nombre","")
+	var edad =prompt("su edad","")
+
+	nombre=elNombre.value;
+	edad=laEdad.value;
+
+	alert("su nombre" + José + "su edad" + 66)
 }
 
