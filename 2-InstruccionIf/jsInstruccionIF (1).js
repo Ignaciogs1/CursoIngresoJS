@@ -2,9 +2,12 @@ function mostrar()
 {
 //tomo la edad  
 	
-	
+	var laVariable;
 
-	if()
+	laVariable=edad.value;
+	laVariable=parseInt(laVariable);
+
+	if(laVariable==15)
 	{
 		alert("niña bonita");
 	}
