@@ -16,8 +16,9 @@ function mostrar()
 
 	cantidadProductos= prompt("Ingresar cuantos productos lleva");
 	cantidadProductos= parseInt(cantidadProductos);
-	precioProducto= prompt("Ingresar el precio del producto");
-	precioProducto= parseInt(precioProducto);
+	precioFinalTarjeta= prompt("Ingresar el precio del producto");
+	precioFinalTarjeta= parseInt(precioFinalTarjeta);
+	precioFinalEfectivo= parseInt(precioFinalEfectivo);
 
 
 	if(cantidadProductos>2)
