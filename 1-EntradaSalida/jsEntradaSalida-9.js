@@ -16,8 +16,11 @@ function mostrarAumento()
 
 	sueldoFinal=sueldoIngresado+aumento;
 
-	sueldoFinal="el sueldo es de " + sueldoFinal;
+	sueldoFinal="El sueldo es de " + sueldoFinal;
 	resultado.value= sueldoFinal;
+	
+
+
 	
 	
 }
