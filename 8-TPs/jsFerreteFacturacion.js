@@ -10,15 +10,15 @@ function Sumar ()
 	var numero3;
 	var suma;
 
-	numero1=PrecioUno.value;
+	numero1=precioUno.value;
 	numero1=parseInt(numero1);
-	numero2=PrecioDos.value;
+	numero2=precioDos.value;
 	numero2=parseInt(numero2);
-	numero3=PrecioTres.value;
+	numero3=precioTres.value;
 	numero3=parseInt(numero3);
 
 	suma=numero1+numero2+numero3;
-	alert(suma)
+	alert("La suma da "+suma)
 
 }
 function Promedio () 
@@ -29,18 +29,33 @@ function Promedio ()
 	var suma;
 	var promedio;
 
-	precio1=PrecioUno.value;
+	precio1=precioUno.value;
 	precio1=parseInt(precio1);
-	precio2=PrecioDos.value;
+	precio2=precioDos.value;
 	precio2=parseInt(precio2);
-	precio3=PrecioTres.value;
+	precio3=precioTres.value;
 	precio3=parseInt(precio3);
 
 	suma=precio1+precio2+precio3;
 	promedio=suma/3;
-	alert(promedio);
+	alert("El promedio es de "+promedio);
 }
 function PrecioFinal () 
 {
-	
+	var precio1;
+	var precio2;
+	var precio3;
+	var suma;
+	var precioFinal;
+
+	precio1=precioUno.value;
+	precio1=parseInt(precio1);
+	precio2=precioDos.value;
+	precio2=parseInt(precio2);
+	precio3=precioTres.value;
+	precio3=parseInt(precio3);
+
+	suma=precio1+precio2+precio3;
+	precioFinal=suma*21/100;
+	alert("El precio final es de "+precioFinal);
 }
