@@ -1,4 +1,34 @@
 function mostrar()
 {
-	alert("ustedes son **** y ****, sus edades son ** y **, y la suma de sus edades es **");
+	var planeta
+	var mensaje;
+	console.log(planeta);
+	planeta= prompt("Ingrese el planeta");
+
+	switch(planeta)
+	{
+		case "mercurio":
+		case "venus":
+			mensaje="Acá hace más calor";
+			break;
+
+		case "tierra":
+			mensaje="Acá vivimos";
+			break;
+
+		case "marte":
+		case "júpiter":
+		case "saturno":
+		case "urano":
+		case "neptuno":
+			mensaje="Acá hace más frío";
+			break;
+
+		default:
+			mensaje="No existe el planeta que ingresaste, o está mal escrito";
+			break;
+	}
+
+	alert(mensaje);
+
 }
