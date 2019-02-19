@@ -22,6 +22,6 @@ function mostrar()
 			break;
 	}
 
-	alert(mensaje);
+	
 
 }//FIN DE LA FUNCIÓN
