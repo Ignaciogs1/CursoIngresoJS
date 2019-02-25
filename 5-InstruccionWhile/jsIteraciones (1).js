@@ -1,16 +1,13 @@
 function mostrar()
 {
 // toda iteración tiene un comienzo, un recorrido y una acción que marca su final
-  	var contador;
+  	
+  	var contador = 0;
 
-  	contador < 0;
-
-  	while(contador > 0)
+  	while (contador <= 10) 
   	{
-  		contador=contador+1;
-  		console.log(contador);
+  		console.log('La variable contador es igual a: ' + contador);
+  		contador++;
   	}
-
-
 
 }//FIN DE LA FUNCIÓN
