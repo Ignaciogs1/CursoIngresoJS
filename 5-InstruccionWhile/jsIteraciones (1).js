@@ -4,10 +4,9 @@ function mostrar()
   	
   	var contador = 0;
 
-  	while (contador <= 10) 
-  	{
-  		console.log('La variable contador es igual a: ' + contador);
-  		contador++;
+  	while (contador <= 10) {
+  		console.log(contador);
+  		contador = contador + 1;
   	}
 
 }//FIN DE LA FUNCIÓN

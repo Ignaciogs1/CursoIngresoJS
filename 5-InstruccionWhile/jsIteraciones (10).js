@@ -6,11 +6,7 @@ function mostrar()
 	
 	var respuesta="si";
 
-	while(respuesta!="no")
-	{
-		
-	
-	}
+	document.write("Ingrese numeros");
 
 
 
