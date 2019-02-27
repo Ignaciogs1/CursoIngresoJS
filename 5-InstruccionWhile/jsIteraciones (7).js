@@ -6,7 +6,7 @@ function mostrar()
 	var acumuladorC = 0;
 	var respuesta = "s";
 
-	while(respuesta == "s"){
+	while(respuesta != "n"){
 		acumulador = parseInt(prompt("Ingrese un numero"));
 		acumuladorC = acumuladorC + acumulador;
 		i = i + 1;
@@ -16,5 +16,6 @@ function mostrar()
 
 document.getElementById('suma').value = acumuladorC;
 document.getElementById('promedio').value = acumuladorC / i;
+
 
 }//FIN DE LA FUNCIÓN
