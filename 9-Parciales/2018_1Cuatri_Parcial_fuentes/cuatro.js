@@ -5,7 +5,7 @@ function mostrar()
 	un descuento adicional de 15%, si el pago es con tarjeta y no efectivo
 	al precio final se le agrega un 10% de recargo.*/
 
-	var cantidadProductos;
+	/*var cantidadProductos;
 	var descuentoCantidad;
 	var sumaPrecios;
 	var precioFinalEfectivo;
@@ -49,7 +49,32 @@ function mostrar()
  		else
  		{
 
- 		}
+ 		}*/
+
+
+ 	var numero1;
+	var número2;
+	var resultado;
+
+	numero1=prompt("ingrese un numero");
+	número2=prompt("ingrese el segundo numero");
+	numero1=parseInt(numero1);
+	número2=parseInt(número2);
+
+	if(numero1==número2)
+	{
+		resultado=numero1*número2;
+	}else
+	{
+		if(numero1>número2)
+		{
+			resultado=numero1- número2;
+		}else
+		{
+			resultado=numero1+número2;
+		}
+	}
+	document.write("resultado es : " + resultado);
 
 }
 
