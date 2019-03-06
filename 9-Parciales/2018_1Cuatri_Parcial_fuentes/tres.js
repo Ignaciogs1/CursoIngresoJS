@@ -4,8 +4,8 @@ function mostrar()
 	var descuento;
 	var precioFinal;
 
-	precioInicial=prompt("Ingrese el precio:");
-	descuento=prompt("Ingrese el descuento:");
+	precioInicial = prompt("Ingrese el precio:");
+	descuento  = prompt("Ingrese el descuento:");
 	
 	
 	precioInicial = parseInt(precioInicial);

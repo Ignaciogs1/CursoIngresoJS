@@ -53,28 +53,39 @@ function mostrar()
 
 
  	var numero1;
-	var número2;
+	var numero2;
 	var resultado;
-
-	numero1=prompt("ingrese un numero");
-	número2=prompt("ingrese el segundo numero");
-	numero1=parseInt(numero1);
-	número2=parseInt(número2);
-
-	if(numero1==número2)
+	
+	numero1 = prompt("Ingrese el primer numero");
+	numero2 = prompt("Ingrese el segundo numero");
+	
+	if(numero1 == numero2)
 	{
-		resultado=numero1*número2;
-	}else
-	{
-		if(numero1>número2)
-		{
-			resultado=numero1- número2;
-		}else
-		{
-			resultado=numero1+número2;
-		}
+		resultado = numero1 + numero2;
+		alert(resultado);
 	}
-	document.write("resultado es : " + resultado);
+	else
+	{
+		numero1 = parseInt(numero1);
+		numero2 = parseInt(numero2);
+		if(numero1 > numero2)
+		{
+			resultado = numero1 - numero2;
+			alert(resultado);
+		}
+		else
+		{
+			resultado = numero1 + numero2;
+			if (resultado > 10)
+			{
+				alert("La suma es " + resultado + " y supero el 10");
+			}
+			else
+			{
+				alert(resultado);
+			}//if (resultado > 10)
+		}//if (numero1 > numero 2)
+	}//if (numero1 == numero2)
 
 }
 

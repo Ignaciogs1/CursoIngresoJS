@@ -3,7 +3,7 @@ function mostrar()
 	var planeta
 	var mensaje;
 	console.log(planeta);
-	planeta= prompt("Ingrese el planeta");
+	planeta = prompt("Ingrese el planeta");
 
 	switch(planeta)
 	{
@@ -17,7 +17,7 @@ function mostrar()
 			break;
 
 		case "marte":
-		case "júpiter":
+		case "jupiter":
 		case "saturno":
 		case "urano":
 		case "neptuno":
